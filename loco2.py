@@ -25,6 +25,7 @@ def encontrar(num):
                 ii+=2
                 espaco=1
             res[ii]=9
+            res[ii+1]=0
         else:
             espaco = 0
         ii += 1
@@ -40,6 +41,8 @@ def encontrar(num):
             if (len(resf)>len(resFim)):
                 resFim=resf
             resf = str(i)
+            if(resf=='-2'):
+                resf=''
         antes = i
     if (len(resf)>len(resFim)):
         resFim=resf
