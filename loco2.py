@@ -5,11 +5,11 @@ def encontrar(num):
     for i in entrada:
         lista += i
 
-    numList = len(lista)            #exemplo: 5
+    numList = len(lista)            
     res = {}                        #resposta 
     ii = 0
     espaco = 1
-    for i in range((numList-1)):    #ficaria 4
+    for i in range((numList-1)):    
         agora = int(lista[i+1])     
         atras = int(lista[i])
         if(agora-1 == atras):       #se o valor de agora - 1 é igual a o valor de atras
