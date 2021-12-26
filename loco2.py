@@ -53,5 +53,5 @@ def encontrar(num):
 
 ##  exemplo
 #   executar no shell
-digite = int(input('digite numeros inteiros: '))
+digite = input('digite numeros inteiros: ')
 encontrar(digite)
